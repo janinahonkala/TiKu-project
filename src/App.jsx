@@ -1,18 +1,27 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Home from './pages/home';
-import Customers from './pages/customers';
-import Projects from './pages/projects';
-import Calendar from './pages/calendar';
+import Home from './pages/Home.jsx';
+import Customers from './pages/Customers.jsx';
+import Projects from './pages/Projects.jsx';
+import Calendar from './pages/Calendar.jsx';
+import { NavbarWrapper, NavLink } from './styles/Navbar.styles';
 
 function App() {
   return (
     <Router>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/customers">Customers</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/calendar">Calendar</Link>
-      </nav>
+      <NavbarWrapper>
+        <NavLink as={Link} to="/">
+          Home
+        </NavLink>
+        <NavLink as={Link} to="/customers">
+          Customers
+        </NavLink>
+        <NavLink as={Link} to="/projects">
+          Projects
+        </NavLink>
+        <NavLink as={Link} to="/calendar">
+          Calendar
+        </NavLink>
+      </NavbarWrapper>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/customers" element={<Customers />} />
