@@ -1,6 +1,7 @@
+// src/styles/CustomerCard.styles.js
 import styled from 'styled-components';
 
-export const CardWrapper = styled.div`
+export const CardContainer = styled.div`
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
