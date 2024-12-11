@@ -1,9 +1,18 @@
-# React + Vite
+TiKu - Customer and Project Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application for managing customers and projects. This app allows users to add and view customer and project details, providing functionality for creating and editing entries.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# TiKu-project
+Features
+
+Customer Management: Add, view, and manage customer information including name, address, email, and phone number.
+Project Management: Add and manage projects, including project details such as customer, date, estimated time, due date, and description.
+Styled UI: The app uses a modern design with styled-components.
+Responsive: The app is fully responsive and adapts to mobile, tablet, and desktop screens.
+
+
+Technologies Used
+
+React: A JavaScript library for building user interfaces.
+styled-components: A library for writing CSS in JavaScript to style components.
+Prop-Types: A library for runtime type checking for props in React components.
